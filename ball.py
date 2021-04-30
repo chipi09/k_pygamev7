@@ -34,7 +34,8 @@ class Bola():
         self.vy = vy
         self.color = color
 
-    
+
+ 
 bolas = []
 for _ in range(10):
     bola = Bola(randint(0, ANCHO),
